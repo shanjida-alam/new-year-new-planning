@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* header related styles */
+.container {
+  background-image: url("../images/banner/banner3.png"); /*External folder theke image ante hoile ../foldername  */
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.container-description {
+  position: relative;
+  top: 218px;
+  left: 876px;
+  width: 200px;
+}
+.title {
+  color: #fff;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+  width: 525px;
+  margin-bottom: 24px;
+}
+.description {
+  color: #fff;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 400;
+  width: 525px;
+  margin-bottom: 24px;
+}
+.btn-container {
+  position: relative;
+  width: 525px;
+}
+.btn {
+  position: absolute;
+  right: 0;
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+}
+/* section-1 related styles */
+#section-1 {
+  margin-top: 140px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.section-content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.section-img {
+  background: url("../images/person.png");
+  width: 555px;
+  height: 898px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+}
+.section-description {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.sec-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  width: 288px;
+  margin-bottom: 24px;
+}
+.sec-para {
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.sec-list {
+  width: 315px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  padding-left: 40px;
+}
+/* section-2 related styles */
+#section-2 {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+/* section-3 related styles */
+#section-3 {
+  background: #fff;
+  width: 1400px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.section-3-content {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.img-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+.section-3 img{
+    display: inline;
+}
+.img-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
